@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="@color/blue7"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/textMessage"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Has reciclat "
+                android:textColor="@color/blueText"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:id="@+id/has_reciclat"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/fraccio"
+                android:layout_toStartOf="@+id/fraccio" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/fraccio"
+                android:textStyle="bold"
+                android:text="DEIXALLA"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" correctament"
+                android:textColor="@color/blueText"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/fraccio"
+                android:layout_toEndOf="@+id/fraccio" />
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:background="@drawable/circle_blue_stroke"
+            android:layout_marginTop="10dp"
+            android:id="@+id/fraccioCircle"
+            android:layout_below="@+id/textMessage"
+            android:layout_centerHorizontal="true"
+            >
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/fraccioImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/fraccioCircle"
+            android:layout_alignEnd="@+id/fraccioCircle"
+            android:layout_alignLeft="@+id/fraccioCircle"
+            android:layout_alignRight="@+id/fraccioCircle"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/resta"
+            android:layout_marginBottom="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignTop="@+id/fraccioCircle"
+            android:layout_alignBottom="@+id/fraccioCircle" />
+        <RelativeLayout
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_blue_stroke_mini"
+            android:id="@+id/fraccioCircleMini"
+            android:layout_alignBottom="@+id/fraccioCircle"
+            android:layout_alignRight="@+id/fraccioCircle"
+            android:layout_alignEnd="@+id/fraccioCircle">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/check"
+                android:padding="10dp"
+                android:tint="@color/blueText"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:padding="30dp"
+                android:src="@drawable/check"
+                android:tint="@color/blueText" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:id="@+id/liniaBlanca1"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue6"
+            android:id="@+id/layoutMissatge"
+            android:layout_below="@+id/liniaBlanca1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingStart="50dp"
+                android:paddingEnd="50dp"
+                android:textSize="16sp"
+                android:lineSpacingMultiplier=".9"
+                android:id="@+id/missatgeText"
+                android:textColor="@color/grayMedium"
+                android:textStyle="bold"
+                android:text="Si ets dels que plega el cartró abans de llençar-lo, ben fet. Ets un bon reciclador!"
+                android:layout_centerInParent="true"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/layoutMissatge"
+            android:id="@+id/liniaBlanca"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liniaBlanca">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/successImage"
+                android:src="@drawable/cartro_plegat"
+                android:scaleType="centerCrop"/>
+
+        </RelativeLayout>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/plus_link"
+            android:layout_below="@+id/layoutMissatge"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-15dp"
+            android:id="@+id/buttonLink"
+            android:scaleType="centerInside"
+
+            android:padding="0dp"
+
+            />
+    </RelativeLayout>
+</LinearLayout>

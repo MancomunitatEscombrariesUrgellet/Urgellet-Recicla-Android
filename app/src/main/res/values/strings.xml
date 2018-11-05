@@ -1,0 +1,138 @@
+<resources>
+
+    <string name="app_name">Urgellet Recicla</string>
+
+    <!--NAVEGACIÓ-->
+    <string name="inici">Inici</string>
+    <string name="notificacions">Notificacions</string>
+    <string name="salari">Saldo</string>
+    <string name="incidencies">Incidències</string>
+    <string name="localitzacio">Localització</string>
+    <string name="geolocalitzacio">Geolocalització</string>
+    <string name="nfc">NFC</string>
+    <string name="qr">Codi QR</string>
+
+    <!--General-->
+    <string name="guio">-</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="torna_inici">Torna a l\'inici</string>
+    <string name="no_permissions_granted">Permisos rebutjats. L\'aplicació no podrà funcionar amb normalitat.</string>
+    <string name="reciclar">Reciclar</string>
+    <string name="acceptar">Acceptar</string>
+    <string name="enviar">Enviar</string>
+    <string name="no_internet">No tens connexió</string>
+
+    <!--\General-->
+
+    <!--Misatges Error-->
+    <string name="error_codi">Codi erròni</string>
+    <string name="field_required">Camp obligatori</string>
+    <string name="error_retry">Hi ha hagut un error.</string>
+    <!--\Misatges Error-->
+
+    <!--Pantalla Login-->
+    <string name="benvingut">Benvingut a Urgellet Recicla Link!</string>
+    <string name="introdueix_numero">Introdueix el teu número de telèfon i aconsegueix descomptes.</string>
+    <string name="posa_codi">Introdueix el codi que has rebut per SMS per començar.</string>
+    <string name="reciclar_be">Reciclar bé costa poc i guanyes molt!</string>
+    <string name="posa_codi_short">Posa el codi</string>
+    <string name="posa_telf_short">Posa el teu telèfon</string>
+    <!--\Pantalla Login-->
+
+
+    <!--Pantalla Saldo-->
+    <string name="saldo_inicial">Bonificació inicial</string>
+    <string name="saldo_actual">Bonificació actual</string>
+    <string name="salari_buit">El teu saldo i la relació de bonificacions es mostrarán aquí</string>
+
+    <!--\Pantalla Saldo-->
+
+    <!--Pantalla Notificacions-->
+    <string name="notificacions_buit">No tens notificacions.</string>
+    <string name="notificacio_descompte">Aquesta setmana has aconseguit una bonificació de %1$s</string>
+
+    <!--\Pantalla Notificacions-->
+
+
+    <!--Pantalla Incidencies-->
+    <string name="incidencia_success">Gràcies per la teva informació, la sol·licitud ha estat enviada correctament</string>
+    <string name="gracies_incidencia">Gràcies pel teu avís, hem rebut la incidència correctament.</string>
+
+    <!--\Pantalla Incidencies-->
+
+
+    <!--Pantalla NFC-->
+    <string name="apropa">Apropa el telèfon mòbil al contenidor per reciclar</string>
+    <string name="nfc_incidencia">Ajuda\'ns a detectar incidències als contenidors. Apropa el telèfon al codi NFC de l\'adhesiu i indica de què es tracta.</string>
+
+    <!--\Pantalla NFC-->
+
+    <!--Pantalla QR-->
+    <string name="he_acabat_reciclar">He acabat de reciclar</string>
+    <string name="llegeix">Llegeix el codi QR de l\'adhesiu per reciclar.</string>
+    <string name="qr_incidencia">Ajuda\'ns a detectar incidències als contenidors. Llegeix el codi QR de l\'adhesiu i indica de què es tracta.</string>
+
+    <!--\Pantalla QR-->
+
+    <!--Fraccions-->
+    <string name="organica">Orgànica</string>
+    <string name="resta">Resta</string>
+    <string name="paper">Paper</string>
+    <string name="envasos">Envasos</string>
+    <string name="vidre">Vidre</string>
+    <string name="deixalla">Deixalla</string>
+
+    <!--\Fraccions-->
+
+    <!--Registre-->
+    <string name="enviar_registre">Estem enviant el registre.</string>
+    <string name="comproba">Estem intentant enviar el teu registre. Siusplau, comproba la teva connexió.</string>
+
+    <!--\Registre-->
+
+    <!--Camera-->
+    <string name="obrir_camera">Obrir càmera</string>
+    <string name="afegeix_foto">Afegeix foto</string>
+    <string name="obrir_galeria">Obrir galeria</string>
+    <string name="torna_fer_foto">Torna a fer la foto</string>
+    <string name="envia_foto">Envia la foto</string>
+    <string name="fes_foto">Fes una fotografia de la incidencia.</string>
+    <!--\Camera-->
+
+    <!--Missatges-->
+    <string name="dades_registrades">Les teves dades han quedat enregistrades. \nQui recicla guanya!</string>
+    <string name="has_llencat_correctament">Has llençat %1$s correctament</string>
+    <string name="has_reciclat_correctament">Has reciclat %1$s correctament</string>
+    <string name="gracies_organica"> Moltes gràcies, has reciclat orgànica.</string>
+    <string name="gracies_vidre">Moltes gràcies, has reciclat vidre.</string>
+    <string name="gracies_resta">Moltes gràcies, has llençat resta.</string>
+    <string name="gracies_envasos">Moltes gràcies, has reciclat envasos.</string>
+    <string name="gracies_paper">Moltes gràcies, has reciclat paper/cartró.</string>
+    <string name="gracies_generic">Moltes gràcies, has llençat deixalla.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activa_localitzacio">Activa la localització</string>
+    <string name="activa_localitzacio_text">És necessari que activis la localització per a utilitzar aquesta funcionalitat.</string>
+    <string name="felicitats">Felicitats! Has activat el teu telèfon.</string>
+    <string name="comenca">Comença a reciclar!</string>
+    <string name="permisos_sms">Necessitem que ens donis accés als SMS per a poder agafar el codi d\'activació. Sinó l\'hauràs de posar manualment.</string>
+    <string name="reenviar">Reenviar Codi</string>
+    <string name="waiting_code">Estem esperant el codi d\'activació.</string>
+
+    <!--\Missatges-->
+
+    <string name="downloading">Descarregant...</string>
+    <string name="download_factura">Descarrega el descompte</string>
+    <string name="moltes_gracies">Moltes gràcies has llençat %1$s</string>
+    <string name="has_llensat">has llençat</string>
+    <string name="Has_llensat">Has llençat\u0020</string>
+    <string name="manco_text">Av. Valira, 3 bx\nLa Seu D\'Urgell\nTel.973 355 600\n900 70 10 46\ninfo@meu.cat\n\nHorari d\'atenció al públic:\nDe dilluns a divendres\nde 8:00 a 15:00 h</string>
+    <string name="descompte_contenidors">Descompte contenidors</string>
+    <string name="descompte_deixalleria">Descompte deixalleria</string>
+    <string name="actualitzacio_quatrimestral">Actualització quadrimestral</string>
+    <string name="title_activity_zbar">ZBarActivity</string>
+    <string name="ok">Ok</string>
+    <string name="key_new_version">Nova versió disponible, aneu a Google Play per actualitzar-la</string>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="80dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/success_icon"
+            android:tint="@color/colorAccent"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textSuccess"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:paddingTop="40dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tecla_button"
+        android:text="@string/torna_inici"
+        android:textColor="@drawable/inici_button_text"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:onClick="tornaInici"/>
+    </RelativeLayout>
+
+</LinearLayout>

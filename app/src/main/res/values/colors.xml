@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blueMain">#0067a1</color>
+    <color name="turquoiseMain">#5fc7cc</color>
+    <color name="turquoiseDark">#4ea8ac</color>
+    <color name="blueAlpha">#B30067a1</color>
+
+    <color name="colorPrimary">@color/blueMain</color>
+    <color name="colorPrimaryDark">@color/blueMain</color>
+    <color name="colorAccent">@color/turquoiseMain</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blackDark">#1d1d1b</color>
+    <color name="grayMedium">#3c3c3c</color>
+    <color name="red">#e20612</color>
+
+    <color name="ocre">#6d3600</color>
+    <color name="beige">#8d8d8d</color>
+    <color name="turquoise">#1ad3c1</color>
+    <color name="yellow">#bfc11c</color>
+    <color name="green">#00890a</color>
+    <color name="orange">#ef5424</color>
+    <color name="envasos_blau">#3988c3</color>
+
+    <color name="organica">@color/ocre</color>
+    <color name="resta">@color/beige</color>
+    <color name="paper">@color/turquoise</color>
+    <color name="envasos">@color/yellow</color>
+    <color name="vidre">@color/green</color>
+    <color name="incidencies">@color/orange</color>
+
+    <color name="blue1">#003f62</color>
+    <color name="blue2">#1e4b62</color>
+    <color name="blue3">#015788</color>
+    <color name="blue4">#006fae</color>
+    <color name="blue5">#0098ec</color>
+    <color name="blue6">#32ADDF</color>
+    <color name="blue7">#207CB7</color>
+    <color name="blueText">#38B9E0</color>
+    <color name="grayLight">#eee</color>
+    <color name="accentLight">#BED3DC</color>
+
+</resources>

@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smartcitylink.urgellet.fragments.IncidenciesFragment"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/incidenciesContainer">
+
+    </LinearLayout>
+    <include android:id="@+id/loader"
+        layout="@layout/loader_view"
+        android:visibility="gone"/>
+
+    <include android:id="@+id/layoutSucces"
+        layout="@layout/layout_success"
+        android:visibility="gone"/>
+
+</RelativeLayout>

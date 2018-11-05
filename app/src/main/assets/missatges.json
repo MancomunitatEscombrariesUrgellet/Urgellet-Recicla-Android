@@ -1,0 +1,269 @@
+/*public static final int FRACCIO_RESTA = 1;
+public static final int FRACCIO_ORGANICA = 4;
+public static final int FRACCIO_ENVASOS = 15;
+public static final int FRACCIO_PAPER = 27;
+public static final int FRACCIO_VIDRE = 33;
+public static final int FRACCIO_DEIXALLERIA = 34;
+public static final int FRACCIO_GENERAL = 35;*/
+
+[
+  {
+    "id":1,
+    "missatge": "Si ets dels que plega el cartró abans de llençar-lo, ben fet. Ets un bon reciclador!",
+    "imatge": "cartro_plegat",
+    "link": null,
+    "fraccio": 27
+  },
+  {
+    "id":2,
+    "missatge": "Segueix reciclant paper i cartró. Ajudaràs a reduir la contaminació de l’aire i de l’aigua.",
+    "imatge": "reciclar_paper_cartro",
+    "link": null,
+    "fraccio": 27
+  },
+  {
+    "id":3,
+    "missatge": "En 20 anys, la recollida selectiva de paper i cartró s’ha multiplicat quasi per 50. Gràcies per fer-ho possible!",
+    "imatge": "evo_recollida_paper",
+    "link": "http://www.meu.cat/paper-i-cartro",
+    "fraccio": 27
+  },
+  {
+    "id":4,
+    "missatge": "Un bon reciclador com tu sap que els brics i el paper d’alumini no van al contenidor blau, sinó al groc.",
+    "imatge": "bric",
+    "link": "http://www.meu.cat/guia-rapida-dels-residus/",
+    "fraccio": 27
+  },
+  {
+    "id":6,
+    "missatge": "Sabies que el vidre pot ser reciclat il·limitades vegades sense perdre les seves propietats?",
+    "imatge": "ampolles_vidre",
+    "link": null,
+    "fraccio": 33
+  },
+  {
+    "id":7,
+    "missatge": "Si recicles vidre, ajudes a estalviar l’energia i les matèries primeres necessàries per fabricar vidre nou.",
+    "imatge": "vidre_reciclat",
+    "link": null,
+    "fraccio": 33
+  },
+  {
+    "id":8,
+    "missatge": "Compra a granel per fer menys deixalles. El millor residu és el que no es genera!",
+    "imatge": "granel",
+    "link": null,
+    "fraccio": 33
+  },
+  {
+    "id":9,
+    "missatge": "Al contenidor verd no s’hi llença ceràmica, ni gots, ni vidres trencats. Porta aquests residus a la deixalleria.",
+    "imatge": "ceramica",
+    "link": "http://www.meu.cat/guia-rapida-dels-residus/",
+    "fraccio": 33
+  },
+  {
+    "id":10,
+    "missatge": "Gràcies als bons recicladors com tu, en 20 anys, la recollida selectiva de vidre s’ha multiplicat per 10!",
+    "imatge": "evo_recollida_vidre",
+    "link": "http://www.meu.cat/vidre/",
+    "fraccio": 33
+  },
+  {
+    "id":11,
+    "missatge": "Sabies que una llauna triga 10 anys a descompondre’s a la natura?",
+    "imatge": "llauna",
+    "link": null,
+    "fraccio": 15
+  },
+  {
+    "id":12,
+    "missatge": "Per evitar generar residus, beu aigua de l’aixeta i no acumulis ampolles de plàstic.",
+    "imatge": "aigua_aixeta",
+    "link": null,
+    "fraccio": 15
+  },
+  {
+    "id":13,
+    "missatge": "Una bossa de plàstic triga entre 15 i 1.000 anys a desintegrar-se: usa bosses reutilitzables i evita generar residus!",
+    "imatge": "bossa_plastic",
+    "link": null,
+    "fraccio": 15
+  },
+  {
+    "id":14,
+    "missatge": "Els envasos van a una planta de triatge on separen els materials (alumini, plàstic...) per ser reciclats.",
+    "imatge": "ampolles_plastic",
+    "link": null,
+    "fraccio": 15
+  },
+  {
+    "id":15,
+    "missatge": "En els últims 15 anys hem triplicat la recollida selectiva d’envasos. Amb la teva ajuda podrem reciclar-ne encara més!",
+    "imatge": "evo_recollida_envasos",
+    "link": "http://www.meu.cat/envasos/",
+    "fraccio": 15
+  },
+  {
+    "id":17,
+    "missatge": "Separa bé la matèria orgànica i ajuda a convertir-la en compost!",
+    "imatge": "compost_2",
+    "link": null,
+    "fraccio": 4
+  },
+  {
+    "id":18,
+    "missatge": "La matèria orgànica que llences al contenidor marró es porta a la planta de compostatge.",
+    "imatge": "planta_compostatge",
+    "link": "http://www.meu.cat/planta-de-compostatge/",
+    "fraccio": 4
+  },
+  {
+    "id":20,
+    "missatge": "Si recicles la matèria orgànica, ajudes a evitar l’emissió de gasos d’efecte hivernacle.",
+    "imatge": "materia_organica",
+    "link": null,
+    "fraccio": 4
+  },
+  {
+    "id":21,
+    "missatge": "Sabies que pots tenir contenidors particulars per llençar restes de poda i jardineria?",
+    "imatge": "poda",
+    "link": "http://www.meu.cat/restes-de-jardineria/",
+    "fraccio": 4
+  },
+  {
+    "id":22,
+    "missatge": "L’oli de cuina usat no s’ha de llençar mai pel desguàs ni al contenidor. Porta’l a la deixalleria per reciclar.",
+    "imatge": "oli_cuina_usat",
+    "link": "http://www.meu.cat/guia-rapida-dels-residus/",
+    "fraccio": 1
+  },
+  {
+    "id":23,
+    "missatge": "La resta representa un 50% dels residus a la Mancomunitat. Entre tots hem d’aconseguir que sigui el 17%.",
+    "imatge": "resta_residus",
+    "link": null,
+    "fraccio": 1
+  },
+  {
+    "id":24,
+    "missatge": "La proporció de resta ha disminuït un 36% en els últims 20 anys gràcies a bons recicladors com tu.",
+    "imatge": "evo_recollida_selectiva",
+    "link": "http://www.meu.cat/wp-content/uploads/2017/03/Evolucio-recollida-selectiva-1.pdf",
+    "fraccio": 1
+  },
+  {
+    "id":25,
+    "missatge": "El dipòsit de residus municipals (abocador) de Benavarre és el destí dels residus del contenidor resta.",
+    "imatge": "abocador",
+    "link": "http://www.meu.cat/diposit-controlat-de-residus-municipals/",
+    "fraccio": 1
+  },
+  {
+    "id":26,
+    "missatge": "Redueix la quantitat de residus de resta, perquè al ritme actual, l’abocador s’omplirà l’any 2018.",
+    "imatge": "abocador_2",
+    "link": "http://www.meu.cat/contenidor-de-la-resta/",
+    "fraccio": 1
+  },
+  {
+    "id":27,
+    "missatge": "Reduir els residus que van a l’abocador ajuda a reduir els gasos d’efecte hivernacle. Separa correctament!",
+    "imatge": "residus_abocador",
+    "link": null,
+    "fraccio": 1
+  },
+  {
+    "id":28,
+    "missatge": "Llença els bolquers i les burilles del tabac al contenidor de resta perquè no es poden reciclar.",
+    "imatge": "bolquers",
+    "link": "http://www.meu.cat/guia-rapida-dels-residus/",
+    "fraccio": 1
+  },
+  {
+    "id":29,
+    "missatge": "Porta els medicaments caducats al Punt Sigre de la farmàcia.",
+    "imatge": "medicament",
+    "link": null,
+    "fraccio": 1
+  },
+  {
+    "id":30,
+    "missatge": "Si portes residus a la deixalleria tres vegades a l’any pots aconseguir 30€ en vals de descompte.",
+    "imatge": "val_descompte",
+    "link": "http://www.meu.cat/vals-i-carnet/",
+    "fraccio": 34
+  },
+  {
+    "id":31,
+    "missatge": "Fes-te el carnet de la deixalleria i aconsegueix vals de descompte!",
+    "imatge": "carnet_deixalleria",
+    "link": "http://www.meu.cat/situacio-i-horari-deixalleria/",
+    "fraccio": 34
+  },
+  {
+    "id":32,
+    "missatge": "Si no pots anar a la deixalleria fixe, recorda que els dissabte a La Seu d’Urgell hi ha la deixalleria mòbil.",
+    "imatge": "deixalleria_mobil",
+    "link": "http://www.meu.cat/deixalleria-mobil/",
+    "fraccio": 34
+  },
+  {
+    "id":33,
+    "missatge": "Els mobles vells i els voluminosos es poden reciclar: avisa al servei de recollida o porta’ls a la deixalleria.",
+    "imatge": "voluminosos",
+    "link": "http://www.meu.cat/recollida-de-mobles-i-voluminosos/",
+    "fraccio": 34
+  },
+  {
+    "id":34,
+    "missatge": "Porta les joguines i altres objectes de plàstic i metall que no són envasos a la deixalleria.",
+    "imatge": "joguines",
+    "link": null,
+    "fraccio": 34
+  },
+  {
+    "id":35,
+    "missatge": "Si recicles correctament, pagaràs menys que si no ho fas: bonifica amb l’aplicació i anant a la deixalleria.",
+    "imatge": "mobil",
+    "link": null,
+    "fraccio": 35
+  },
+  {
+    "id":36,
+    "missatge": "Sabies que l’augment del reciclatge es relaciona amb l’augment de llocs de treball?",
+    "imatge": "persona_treballant_1",
+    "link": null,
+    "fraccio": 35
+  },
+  {
+    "id":37,
+    "missatge": "El reciclatge disminueix els costos econòmics del transport de residus als abocadors i les incineradores.",
+    "imatge": "persona_treballant_2",
+    "link": null,
+    "fraccio": 35
+  },
+  {
+    "id":38,
+    "missatge": "Recorda que si recicles correctament rebràs una bonificació setmanal de 2€!",
+    "imatge": "a2_euros",
+    "link": null,
+    "fraccio": 35
+  },
+  {
+    "id":39,
+    "missatge": "Tens dubtes d’on va cada residu? Consulta la guia ràpida de residus de la Mancomunitat.",
+    "imatge": "residus",
+    "link": "http://www.meu.cat/guia-rapida-dels-residus/",
+    "fraccio": 35
+  },
+  {
+    "id":40,
+    "missatge": "Des de la Mancomunitat pots aconseguir gratuïtament bosses compostables. Gràcies a elles, tots els ciutadans estalvieu 270€ a l’any!",
+    "imatge": "bossa_compostable",
+    "link": "http://www.meu.cat/guia-rapida-dels-residus/",
+    "fraccio": 4
+  }
+]

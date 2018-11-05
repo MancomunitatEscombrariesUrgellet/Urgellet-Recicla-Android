@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.smartcitylink.urgellet"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 24
+        versionName "2.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            versionNameSuffix "-DEBUG"
+        }
+
+    }
+}
+
+dependencies {
+
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //POST KitKat QR
+    //KitKat and previous QR
+
+    implementation 'com.dlazaro66.qrcodereaderview:qrcodereaderview:2.0.3'
+    implementation 'com.github.nisrulz:qreader:2.0.1'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'uk.co.chrisjenx:calligraphy:2.2.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.jakewharton:butterknife:8.5.1'
+    implementation 'com.google.android.gms:play-services-vision:10.2.0'
+    implementation 'com.google.android.gms:play-services-maps:10.2.0'
+    implementation 'com.google.android.gms:play-services-location:10.2.0'
+    implementation 'com.daimajia.easing:library:2.0@aar'
+    implementation 'com.thoughtbot:expandablerecyclerview:1.3'
+    implementation 'com.github.pavlospt:circleview:1.3'
+    implementation 'com.daimajia.androidanimations:library:2.2@aar'
+    implementation 'com.github.gogopop:CameraKit-Android:dd9ecf0f5d'
+    implementation 'me.dm7.barcodescanner:zxing:1.9.8'
+    implementation 'me.dm7.barcodescanner:zbar:1.9.8'
+    implementation 'org.jsoup:jsoup:1.7.3'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    testImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    testImplementation 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+}

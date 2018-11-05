@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    tools:context="com.smartcitylink.urgellet.fragments.CameraFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/NormalTextView"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="18sp"
+        android:text="@string/fes_foto"
+        android:layout_alignParentTop="true"
+        android:id="@+id/infoText"
+        />
+    <RelativeLayout
+        android:layout_below="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cameraContainer">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cameraPreview">
+            <com.flurgle.camerakit.CameraView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                app:ckCropOutput="true"
+                app:ckFacing="back"
+                app:ckFlash="auto"
+                app:ckFocus="tap"
+                app:ckJpegQuality="100"
+                app:ckMethod="still"
+                />
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/photo_camera"
+                android:scaleType="centerInside"
+                android:layout_alignBottom="@id/camera"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/takePhoto"
+                android:tint="@color/white"
+                />
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/flash"
+                android:scaleType="centerInside"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:tint="@color/colorAccent"
+                android:background="@android:color/transparent"
+                android:id="@+id/showFlash"
+                />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagePreview"
+            android:visibility="gone"/>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@+id/cameraContainer"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:id="@+id/buttonsLayout"
+        android:visibility="invisible"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/UrgelletButton"
+            android:text="@string/torna_fer_foto"
+            android:id="@+id/fotoRetry"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/UrgelletButton"
+            android:text="@string/envia_foto"
+            android:id="@+id/sendFoto"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+    <include android:id="@+id/loader"
+        layout="@layout/loader_view"
+        android:visibility="gone"/>
+
+</RelativeLayout>

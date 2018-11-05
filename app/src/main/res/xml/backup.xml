@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="file" path="default.realm"/>
+    <exclude domain="file" path="default.realm.lock"/>
+    <exclude domain="sharedpref" path="urgellet_shared.xml"/>
+</full-backup-content>

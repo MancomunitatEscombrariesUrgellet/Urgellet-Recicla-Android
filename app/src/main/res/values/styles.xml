@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+    <style name="ButtonTeclatStyle" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/tecla_button</item>
+        <item name="android:textColor">@drawable/tecla_button_text</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="TextAppearance.Bold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Glegoo-Bold.ttf</item>
+    </style>
+
+
+    <style name="InfoTextView" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Glegoo-Bold.ttf</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingEnd">30dp</item>
+        <item name="android:paddingStart">30dp</item>
+
+
+    </style>
+
+    <style name="InfoTextViewMedium" parent="InfoTextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingEnd">15dp</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:lineSpacingExtra">-5.0sp</item>
+    </style>
+
+    <style name="NormalTextView" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Glegoo-Bold.ttf</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_right_to_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_left_to_right</item>
+    </style>
+
+    <style name="UrgelletImages">
+        <item name="android:tint">@color/colorAccent</item>
+    </style>
+
+    <style name="UrgelletButton" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/default_button</item>
+        <item name="android:textColor">@drawable/default_button_text</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontPath">fonts/Glegoo-Bold.ttf</item>
+
+    </style>
+
+    <style name="UrgelletButtonSmall" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/default_button</item>
+        <item name="android:textColor">@drawable/default_button_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="fontPath">fonts/Glegoo-Bold.ttf</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
