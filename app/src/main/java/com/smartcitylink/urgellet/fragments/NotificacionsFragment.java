@@ -151,6 +151,6 @@ public class NotificacionsFragment extends Fragment {
     public void onResume(){
         super.onResume();
         EventBus.getDefault().register(this);
-        //TODO NOTIFICACIONS
+        //TODO: get NotificationsResponse Array and Store on Realm Database using method saveNotificacions from DataManager.java class
     }
 }

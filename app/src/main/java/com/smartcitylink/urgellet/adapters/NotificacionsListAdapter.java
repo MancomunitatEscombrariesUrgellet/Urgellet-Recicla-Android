@@ -101,7 +101,7 @@ public class NotificacionsListAdapter extends RecyclerView.Adapter<Notificacions
             public void onClick(View v) {
                 if(notificacio.getTipo() == TYPE_DESCUENTO){
                     Toast.makeText(mContext, mContext.getString(R.string.downloading), Toast.LENGTH_SHORT).show();
-                    //TODO GET RECIBO
+                    //TODO get Discount PDF from server and storage file on phone and trigger PDFDataSuccessEvent
                 }
             }
         });

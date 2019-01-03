@@ -143,8 +143,7 @@ public class PerfilListAdapter extends RecyclerView.Adapter<PerfilListAdapter.Si
                         Log.d("PERFIL_ADAPTER", "HISTORIAL_DESCOMPTES");
 
                         Toast.makeText(mContext, mContext.getString(R.string.downloading), Toast.LENGTH_SHORT).show();
-                        //TODO GET RECIBO
-
+                        //TODO get Quarter Discount PDF from server with parameter holder.getAdapterPosition() and storage file on phone and trigger PDFDataSuccessEvent
                     break;
                 }
 

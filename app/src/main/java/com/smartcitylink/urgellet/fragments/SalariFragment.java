@@ -92,7 +92,7 @@ public class SalariFragment extends Fragment {
     @OnClick(R.id.rebutButton)
     public void downloadSalari (){
         Toast.makeText(getActivity(), getContext().getString(R.string.downloading), Toast.LENGTH_SHORT).show();
-        //TODO GET RECIBO
+        //TODO get Discount PDF from server and storage file on phone and trigger PDFDataSuccessEvent
     }
 
 

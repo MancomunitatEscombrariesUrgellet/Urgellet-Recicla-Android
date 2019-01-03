@@ -90,12 +90,10 @@ public class SendRegistroService extends Service {
                 registrar.setTimestamp(registro.getTimestamp());
                 if (registro.getImage() == null){
                     Log.d("appu", "ENVIA sense FOTO");
-
-                    //TODO REGISTRAR
-
+                    //TODO send to server Registrar Object
                 }
                 else{
-                    //TODO REGISTRAR
+                    //TODO send to server Registrar Object and File using File file = new File(Environment.getExternalStorageDirectory()+"/pic.jpg")
                 }
 
                 DataManager.getInstance().deleteRegistroOffline(registro);

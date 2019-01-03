@@ -821,7 +821,7 @@ public class MainActivity extends BaseActivity implements OnRegistrarFragmentInt
         Registrar registrar = createRegistrarToSend(Integer.parseInt(nfc), modo);
 
         if (checkConnection(this)) {
-            //TODO REGISTRAR
+            //TODO send to server Registrar Object and File
         } else {
             DataManager.getInstance().saveRegistroOffline(registrar, file);
             Utils.startBackgroundService(this);
@@ -879,7 +879,7 @@ public class MainActivity extends BaseActivity implements OnRegistrarFragmentInt
         Registrar registrar = createRegistrarToSend(nfc, modo);
 
         if (checkConnection(this)) {
-            //TODO REGISTRAR
+            //TODO send to server Registrar Object
         } else {
             DataManager.getInstance().saveRegistroOffline(registrar, null);
             Utils.startBackgroundService(this);

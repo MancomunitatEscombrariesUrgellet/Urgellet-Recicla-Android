@@ -144,7 +144,14 @@ public class CheckActivity extends BaseActivity {
         }
         else {
             if(isOnline) {
-                //TODO GET INFO
+                
+                //TODO: sync from server User class and call saveUserInfo method on DataManager.java class and save user data on Singleton
+                //TODO: sync from server Salari class and save data on Realm and call saveUserData method on DataManager.java
+                //TODO: sync from server SalariDeixalleria class and call saveUserDataDeixalleria method on DataManager.java class
+                //TODO: sync from server NotificationsResponse class and call saveNotificacions method on DataManager.java class
+                //TODO: sync from server ActuacionesResponse class and call saveActuaciones method on DataManager.java class
+                //TODO: sync from server ElementoResponse class and save data on Realm and call saveElementos method on DataManager.java class
+                
                 goToMainActivity();
             }
             else goToMainActivity();

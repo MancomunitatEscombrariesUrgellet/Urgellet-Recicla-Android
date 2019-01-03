@@ -185,10 +185,16 @@ public class LoginActivity extends BaseActivity {
         if (isValid()){
             loader.setVisibility(View.VISIBLE);
             if (!waitingCodi) {
-                //TODO DO LOGIN
+                //TODO: do login sending phone number to server and trigger LoginSuccessEvent with EventBus library to continue
             }
             else {
-               //TODO CHECK CODI
+                //TODO: send sms code on phoneEditText to server and receive LoginResponse Object and trigger saveLoginInfo method on DataManager.java class
+                //TODO: sync from server User class and call saveUserInfo method on DataManager.java class and save user data on Singleton
+                //TODO: sync from server Salari class and save data on Realm and call saveUserData method on DataManager.java
+                //TODO: sync from server SalariDeixalleria class and call saveUserDataDeixalleria method on DataManager.java class
+                //TODO: sync from server NotificationsResponse class and call saveNotificacions method on DataManager.java class
+                //TODO: sync from server ActuacionesResponse class and call saveActuaciones method on DataManager.java class
+                //TODO: sync from server ElementoResponse class and save data on Realm and call saveElementos method on DataManager.java class
             }
         }
         else{
